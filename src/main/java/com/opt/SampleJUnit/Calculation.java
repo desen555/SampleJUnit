@@ -8,6 +8,9 @@ public class Calculation {
 		
 		if (a > 100)
 			c = a + b;
+		else 
+			c = a + b + 50;
+		
 		if (a < 100)
 			c = a+b+100;
 		return c;
