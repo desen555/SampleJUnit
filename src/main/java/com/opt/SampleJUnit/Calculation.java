@@ -24,6 +24,9 @@ public class Calculation {
 			c = a - b;
 		else 
 			c = b-a;
+		
+		if (a > b)
+			a = 0;
 	
 		return c;
 	}
