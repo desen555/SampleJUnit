@@ -29,7 +29,7 @@ public class AppTest extends TestCase {
 	}
 
 	public void testAdd() {
-		int total = 8;
+		int total = 108;
 		int sum = Calculation.add(value1, value2);
 		assertEquals(sum, total);
 	}
