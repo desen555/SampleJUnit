@@ -3,11 +3,25 @@ package com.opt.SampleJUnit;
 public class Calculation {
 	// Method to Add
 	public static int add(int a, int b) {
-		return a + b;
+		
+		int c =0;
+		
+		if (a > 100)
+			c = a + b;
+		if (a < 100)
+			c = a+b+100;
+		return c;
 	}
 
 	// Method to substract
 	public static int sub(int a, int b) {
-		return a - b;
+		int c;
+		
+		if (a > b)
+			c = a - b;
+		else 
+			c = b-a;
+	
+		return c;
 	}
 }
